@@ -31,3 +31,30 @@ justify-content: center;
 justify-content: center;
 align-items: center;
 gap: 80px;}
+.form{background-image: url(../assets/handshake.jpg);}
+
+.support{
+    margin-top: 50px;  
+    
+    display:flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1140px;
+height: 313px;
+margin: 0px auto;
+
+background-image: url(../assets/handshake.jpg);
+background-size: 1140px 313px;
+background-blend-mode: overlay;
+}
+.support h3{ color: aliceblue;
+font-size: 32px;
+font-weight: bold;}
+.support p{color: aliceblue;}
+.support-form{display:flex;gap: 10px;
+
+}
+.support button{width: 120px;
+height: 57px;
+border-radius:15px;}
